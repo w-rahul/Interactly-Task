@@ -5,6 +5,7 @@ import { PrismaClient } from "@prisma/client"
 
 const prisma = new PrismaClient()
 
+
 dotenv.config();
 
 const API_KEY = process.env.API_KEY 
